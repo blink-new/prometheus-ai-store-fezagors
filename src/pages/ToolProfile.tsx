@@ -43,7 +43,7 @@ export function ToolProfile() {
                 <p className="text-muted-foreground mb-4">{tool.description}</p>
                 <div className="flex items-center space-x-4">
                   <div className="flex items-center">
-                    <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                    <Star className="h-5 w-5 fill-black text-black" />
                     <span className="ml-1 font-medium">{tool.rating}</span>
                     <span className="ml-1 text-muted-foreground">({tool.reviews} reviews)</span>
                   </div>
@@ -144,7 +144,7 @@ export function ToolProfile() {
                       <div className="flex items-center space-x-2 mb-2">
                         <div className="flex">
                           {[...Array(5)].map((_, i) => (
-                            <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                            <Star key={i} className="h-4 w-4 fill-black text-black" />
                           ))}
                         </div>
                         <span className="font-semibold">DevUser123</span>

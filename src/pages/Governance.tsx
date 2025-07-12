@@ -48,7 +48,7 @@ export function Governance() {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-center">
-                  <Clock className="h-8 w-8 text-yellow-600 mr-3" />
+                  <Clock className="h-8 w-8 text-black mr-3" />
                   <div>
                     <div className="text-2xl font-bold">12</div>
                     <div className="text-sm text-muted-foreground">Pending</div>
@@ -105,7 +105,7 @@ export function Governance() {
                             review.riskLevel === 'High' 
                               ? 'ml-2 bg-red-100 text-red-800' 
                               : review.riskLevel === 'Medium'
-                              ? 'ml-2 bg-yellow-100 text-yellow-800'
+                              ? 'ml-2 bg-gray-100 text-black'
                               : 'ml-2 bg-green-100 text-green-800'
                           }
                         >
@@ -141,7 +141,7 @@ export function Governance() {
                     </div>
                     <div>
                       <div className="font-semibold">Code Review</div>
-                      <div className="text-yellow-600">⚠ In Progress</div>
+                      <div className="text-black">⚠ In Progress</div>
                     </div>
                     <div>
                       <div className="font-semibold">Safety Test</div>
@@ -216,7 +216,7 @@ export function Governance() {
                 <div className="bg-muted/50 p-4 rounded">
                   <div className="text-green-600">[PASS] Buffer overflow test - No vulnerabilities detected</div>
                   <div className="text-green-600">[PASS] SQL injection test - Input sanitization working</div>
-                  <div className="text-yellow-600">[WARN] Rate limiting - Potential DoS vulnerability</div>
+                  <div className="text-black">[WARN] Rate limiting - Potential DoS vulnerability</div>
                   <div className="text-red-600">[FAIL] Memory leak test - Memory not properly freed</div>
                 </div>
               </div>

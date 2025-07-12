@@ -169,7 +169,7 @@ export function TokenMarketplace() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Trophy className="h-5 w-5 mr-2 text-yellow-600" />
+                <Trophy className="h-5 w-5 mr-2 text-black" />
                 Top Developers by Earnings
               </CardTitle>
               <CardDescription>
@@ -182,9 +182,9 @@ export function TokenMarketplace() {
                   <div key={dev.rank} className="flex items-center justify-between p-4 border rounded-lg hover:bg-muted/50 transition-colors">
                     <div className="flex items-center space-x-4">
                       <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold ${
-                        dev.rank === 1 ? 'bg-yellow-100 text-yellow-800' :
-                        dev.rank === 2 ? 'bg-gray-100 text-gray-800' :
-                        dev.rank === 3 ? 'bg-orange-100 text-orange-800' :
+                        dev.rank === 1 ? 'bg-gray-100 text-black' :
+                        dev.rank === 2 ? 'bg-gray-100 text-black' :
+                        dev.rank === 3 ? 'bg-gray-100 text-black' :
                         'bg-muted text-muted-foreground'
                       }`}>
                         #{dev.rank}
@@ -219,7 +219,7 @@ export function TokenMarketplace() {
                     <div className="text-sm text-muted-foreground">NeuralLabs Inc.</div>
                   </div>
                   <div className="flex items-center">
-                    <Star className="h-4 w-4 fill-yellow-400 text-yellow-400 mr-1" />
+                    <Star className="h-4 w-4 fill-black text-black mr-1" />
                     <span className="font-semibold">4.9</span>
                   </div>
                 </div>
@@ -229,7 +229,7 @@ export function TokenMarketplace() {
                     <div className="text-sm text-muted-foreground">RoboHome Inc.</div>
                   </div>
                   <div className="flex items-center">
-                    <Star className="h-4 w-4 fill-yellow-400 text-yellow-400 mr-1" />
+                    <Star className="h-4 w-4 fill-black text-black mr-1" />
                     <span className="font-semibold">4.9</span>
                   </div>
                 </div>

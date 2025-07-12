@@ -98,7 +98,7 @@ export function LandingPage() {
   const getSafetyBadge = (safety: string) => {
     const colors = {
       'Verified': 'bg-green-100 text-green-800 border-green-200',
-      'Pending': 'bg-yellow-100 text-yellow-800 border-yellow-200',
+      'Pending': 'bg-gray-100 text-black border-gray-200',
       'Rejected': 'bg-red-100 text-red-800 border-red-200'
     };
     return colors[safety as keyof typeof colors] || colors.Pending;
@@ -120,7 +120,7 @@ export function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">
             The Future of
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-pink-200">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-gray-300 to-pink-200">
               Modular AI
             </span>
           </h1>
@@ -248,7 +248,7 @@ export function LandingPage() {
                           <div className="flex items-center justify-between mb-3">
                             <div className="flex items-center space-x-2">
                               <div className="flex items-center">
-                                <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                                <Star className="h-4 w-4 fill-black text-black" />
                                 <span className="ml-1 text-sm font-medium">{tool.rating}</span>
                               </div>
                               <span className="text-sm text-muted-foreground">({tool.reviews})</span>
@@ -291,7 +291,7 @@ export function LandingPage() {
                           <div className="flex items-center justify-between mb-3">
                             <div className="flex items-center space-x-2">
                               <div className="flex items-center">
-                                <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                                <Star className="h-4 w-4 fill-black text-black" />
                                 <span className="ml-1 text-sm font-medium">{skill.rating}</span>
                               </div>
                               <span className="text-sm text-muted-foreground">({skill.reviews})</span>

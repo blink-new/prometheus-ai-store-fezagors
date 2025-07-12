@@ -21,7 +21,7 @@ export function SkillProfile() {
             </p>
             <div className="flex items-center space-x-4">
               <div className="flex items-center">
-                <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                <Star className="h-5 w-5 fill-black text-black" />
                 <span className="ml-1 font-medium">4.9</span>
                 <span className="ml-1 text-muted-foreground">(89 reviews)</span>
               </div>
@@ -82,9 +82,9 @@ export function SkillProfile() {
               <CardDescription>Requires token staking</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              <div className="bg-yellow-50 dark:bg-yellow-900/20 p-4 rounded-lg">
+              <div className="bg-gray-50 dark:bg-gray-900/20 p-4 rounded-lg">
                 <div className="flex items-center mb-2">
-                  <Lock className="h-4 w-4 text-yellow-600 mr-2" />
+                  <Lock className="h-4 w-4 text-black mr-2" />
                   <span className="text-sm font-medium">Security Staking Required</span>
                 </div>
                 <p className="text-xs text-muted-foreground">

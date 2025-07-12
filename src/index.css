@@ -40,38 +40,38 @@
   }
   
   .dark {
-    --background: 263 25% 6%;
-    --foreground: 258 30% 95%;
-    --card: 263 25% 8%;
-    --card-foreground: 258 30% 95%;
-    --popover: 263 25% 8%;
-    --popover-foreground: 258 30% 95%;
-    --primary: 267 100% 70%;
-    --primary-foreground: 263 25% 6%;
-    --secondary: 263 20% 12%;
-    --secondary-foreground: 258 30% 95%;
-    --muted: 263 20% 12%;
-    --muted-foreground: 258 20% 65%;
-    --accent: 270 95% 75%;
-    --accent-foreground: 263 25% 6%;
+    --background: 240 10% 4%;
+    --foreground: 220 14% 96%;
+    --card: 240 10% 6%;
+    --card-foreground: 220 14% 96%;
+    --popover: 240 10% 6%;
+    --popover-foreground: 220 14% 96%;
+    --primary: 263 70% 50%;
+    --primary-foreground: 220 14% 96%;
+    --secondary: 240 9% 9%;
+    --secondary-foreground: 220 14% 96%;
+    --muted: 240 9% 9%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 263 70% 50%;
+    --accent-foreground: 220 14% 96%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 263 20% 18%;
-    --input: 263 20% 18%;
-    --ring: 267 100% 70%;
-    --chart-1: 267 100% 70%;
+    --border: 240 11% 12%;
+    --input: 240 11% 12%;
+    --ring: 263 70% 50%;
+    --chart-1: 263 70% 50%;
     --chart-2: 280 100% 75%;
     --chart-3: 255 100% 70%;
     --chart-4: 295 100% 80%;
     --chart-5: 310 100% 75%;
-    --sidebar-background: 263 25% 8%;
-    --sidebar-foreground: 258 30% 95%;
-    --sidebar-primary: 267 100% 70%;
-    --sidebar-primary-foreground: 263 25% 6%;
-    --sidebar-accent: 263 20% 12%;
-    --sidebar-accent-foreground: 258 30% 95%;
-    --sidebar-border: 263 20% 18%;
-    --sidebar-ring: 267 100% 70%;
+    --sidebar-background: 240 9% 5%;
+    --sidebar-foreground: 220 14% 96%;
+    --sidebar-primary: 263 70% 50%;
+    --sidebar-primary-foreground: 220 14% 96%;
+    --sidebar-accent: 240 9% 9%;
+    --sidebar-accent-foreground: 220 14% 96%;
+    --sidebar-border: 240 11% 12%;
+    --sidebar-ring: 263 70% 50%;
   }
 }
 
@@ -86,7 +86,7 @@
 }
 
 .gradient-violet {
-  background: linear-gradient(135deg, #a855f7 0%, #7c3aed 50%, #6366f1 100%);
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 50%, #6366f1 100%);
 }
 
 .gradient-violet-light {
